@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DFDC06F29AA772830AFBA4D /* offset_arm64.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDC94E1EB700F6BD30F692 /* offset_arm64.plist */; };
+		6DFDC1265C154CAFBCC049C1 /* offset_arm32.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDC944BA0973B7DA6C1F54 /* offset_arm32.plist */; };
+		6DFDC366F64355535EFFF805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC518DEA458F6BB2424F4 /* main.m */; };
+		6DFDC39092BCD009D4EEE714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDC371BA6141ED502E7D01 /* LaunchScreen.storyboard */; };
+		6DFDC47EE8998F0B3E3D430D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDCC8127A9A0E46F8D0466 /* Assets.xcassets */; };
+		6DFDC88CAF5917C89A90E801 /* RWHookDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC9768C0F77803910733A /* RWHookDetector.m */; };
+		6DFDCADFB528EA010E390877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC57D17EB14A4300B6502 /* AppDelegate.m */; };
+		6DFDCC0AEDD2EB4E5C105656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDC97E4D2241FEDA51260B /* ViewController.m */; };
+		6DFDCD267DE5CD32C5F491F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDC5E85A11AC92A4F3B84C /* Info.plist */; };
+		6DFDCF599B3B238D4F154658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDCCFA59DB945A5B3AD674 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DFDC00CB9CC28B86BB86D03 /* RWHookDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHookDetector.h; sourceTree = "<group>"; };
+		6DFDC4A6F29ADCF3F1D43E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DFDC518DEA458F6BB2424F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DFDC57D17EB14A4300B6502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DFDC5E85A11AC92A4F3B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6DFDC741F3D41E40629EC8B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DFDC944BA0973B7DA6C1F54 /* offset_arm32.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = offset_arm32.plist; path = offset/offset_arm32.plist; sourceTree = "<group>"; };
+		6DFDC94E1EB700F6BD30F692 /* offset_arm64.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = offset_arm64.plist; path = offset/offset_arm64.plist; sourceTree = "<group>"; };
+		6DFDC9768C0F77803910733A /* RWHookDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWHookDetector.m; sourceTree = "<group>"; };
+		6DFDC97E4D2241FEDA51260B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DFDCC6894DD60C31B49C32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DFDCC8127A9A0E46F8D0466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DFDCD3F501F29C7A958412E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DFDCDA876DFE207F3BA1FAE /* HookDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DFDCB383E36B1DD07BF6255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DFDC21CCD7588C09973429E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDCDA876DFE207F3BA1FAE /* HookDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DFDC3859D48BD16B7D5A6D3 = {
+			isa = PBXGroup;
+			children = (
+				6DFDC21CCD7588C09973429E /* Products */,
+				6DFDCF5DD586228EBC6F6CE4 /* HookDetector */,
+			);
+			sourceTree = "<group>";
+		};
+		6DFDC97CF4A8B435FEF76C55 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDC944BA0973B7DA6C1F54 /* offset_arm32.plist */,
+				6DFDC94E1EB700F6BD30F692 /* offset_arm64.plist */,
+				6DFDC9768C0F77803910733A /* RWHookDetector.m */,
+				6DFDC00CB9CC28B86BB86D03 /* RWHookDetector.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6DFDCDD767D3FE04E184D22B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDC518DEA458F6BB2424F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DFDCF5DD586228EBC6F6CE4 /* HookDetector */ = {
+			isa = PBXGroup;
+			children = (
+				6DFDC5E85A11AC92A4F3B84C /* Info.plist */,
+				6DFDCC8127A9A0E46F8D0466 /* Assets.xcassets */,
+				6DFDC371BA6141ED502E7D01 /* LaunchScreen.storyboard */,
+				6DFDCDD767D3FE04E184D22B /* Supporting Files */,
+				6DFDC741F3D41E40629EC8B5 /* AppDelegate.h */,
+				6DFDC57D17EB14A4300B6502 /* AppDelegate.m */,
+				6DFDCCFA59DB945A5B3AD674 /* Main.storyboard */,
+				6DFDCD3F501F29C7A958412E /* ViewController.h */,
+				6DFDC97E4D2241FEDA51260B /* ViewController.m */,
+				6DFDC97CF4A8B435FEF76C55 /* Core */,
+			);
+			path = HookDetector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DFDCC8FE2EA3D9A329556A0 /* HookDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DFDCF1BA7165A2BF0CCDBAD /* Build configuration list for PBXNativeTarget "HookDetector" */;
+			buildPhases = (
+				6DFDC0A8CC5C9F4601B36E00 /* Sources */,
+				6DFDCB383E36B1DD07BF6255 /* Frameworks */,
+				6DFDCF054FC4CF46B6031D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HookDetector;
+			productName = HookDetector;
+			productReference = 6DFDCDA876DFE207F3BA1FAE /* HookDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DFDC5AD229911915E138319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = RW;
+			};
+			buildConfigurationList = 6DFDC8A7915E66A93A19AA7E /* Build configuration list for PBXProject "HookDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DFDC3859D48BD16B7D5A6D3;
+			productRefGroup = 6DFDC21CCD7588C09973429E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DFDCC8FE2EA3D9A329556A0 /* HookDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DFDCF054FC4CF46B6031D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFDCD267DE5CD32C5F491F2 /* Info.plist in Resources */,
+				6DFDC47EE8998F0B3E3D430D /* Assets.xcassets in Resources */,
+				6DFDC39092BCD009D4EEE714 /* LaunchScreen.storyboard in Resources */,
+				6DFDCF599B3B238D4F154658 /* Main.storyboard in Resources */,
+				6DFDC1265C154CAFBCC049C1 /* offset_arm32.plist in Resources */,
+				6DFDC06F29AA772830AFBA4D /* offset_arm64.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DFDC0A8CC5C9F4601B36E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFDC366F64355535EFFF805 /* main.m in Sources */,
+				6DFDCADFB528EA010E390877 /* AppDelegate.m in Sources */,
+				6DFDCC0AEDD2EB4E5C105656 /* ViewController.m in Sources */,
+				6DFDC88CAF5917C89A90E801 /* RWHookDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DFDC371BA6141ED502E7D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DFDCC6894DD60C31B49C32F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6DFDCCFA59DB945A5B3AD674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DFDC4A6F29ADCF3F1D43E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DFDC397C555BE0709796143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HookDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.HookDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DFDCA0849609D2739F94CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DFDCBB38B52D76E3DE835DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HookDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RW.HookDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DFDCF7B644CDF54D462237C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DFDC8A7915E66A93A19AA7E /* Build configuration list for PBXProject "HookDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFDCF7B644CDF54D462237C /* Debug */,
+				6DFDCA0849609D2739F94CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DFDCF1BA7165A2BF0CCDBAD /* Build configuration list for PBXNativeTarget "HookDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFDC397C555BE0709796143 /* Debug */,
+				6DFDCBB38B52D76E3DE835DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DFDC5AD229911915E138319 /* Project object */;
+}
