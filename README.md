@@ -10,7 +10,7 @@ In some big project, `method swizzling` is such a annoying thing when being abus
 ## Usage 
 ### For method of your own class
 - examle:
-```
+```objc
 @implementation MyClass
 + (void) load{
   Method ori_method = class_getInstanceMethod([MyObject class], @selector(dosth));
@@ -32,7 +32,7 @@ In some big project, `method swizzling` is such a annoying thing when being abus
 
 ### For method of built-in class
 - example:
-```
+```objc
 //here is a private category might be brought from 3rd party 
 @implementation UIViewController (YouDonKnow)
 - (void)viewDidLoad2 {
